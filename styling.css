@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background-color: rgb(138, 97, 51);
+  }
+  /* other relevant colors 
+     background-color: rgb(113, 86, 39);
+     color: rgb(239, 220, 156);
+     background-color: rgb(71, 52, 29);
+     color: rgb(248, 248, 186);
+     color: rgb(186, 186, 156);
+  */
+  
+  @font-face {
+    font-family: "Champagne";
+    src: url("https://westmeccoding.github.io/chocolate_starter_files/cac_champagne.woff")
+        format("woff"),
+      /*     url("https://drive.google.com/uc?export=view&id=17yiV9ccaukiu3vlo1ILINzItAoY57DCX")
+        format("ttf"); */;
+    font-style: cursive;
+  }
+  
+  dt,
+  dd {
+    font-family: "Champagne", cursive;
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: 8px;
+  }
+  
+  aside {
+    height: 100%;
+    padding-left: 15px;
+    /*   background-color: rgb(113, 86, 39); */
+  }
+  
+  dl {
+    background-color: rgb(113, 86, 39);
+    padding: 7px;
+  }
+  
+  #faq {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  footer {
+    background-color: rgb(71, 52, 29);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-weight: 500;
+    font-size: 4vw;
+    padding: 10px;
+    font-family: "Champagne", cursive;
+    letter-spacing: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  img {
+    width: 100%;
+    height: 20%;
+  }
+  
+  h2 {
+    background-color: rgb(71, 52, 29);
+    /*   width: 100%; */
+    padding: 10px;
+  }
+  
+  h3 {
+    padding: 10px;
+  }
+  
+  p {
+    padding: 10px;
+  }
+  
+  dd {
+    color: rgb(239, 220, 156);
+  }
+  
+  div.row {
+    clear: both;
+  }
+  
+  div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  div {
+    outline: 1px solid red;
+  }
+  
+  div[class^="col-"] {
+    float: left;
+  }
+  
+  div.col-1-2 {
+    width: 50%;
+  }
+  
+  div.col-1-3 {
+    width: 33.33%;
+  }
+  
+  div.col-2-3 {
+    width: 66.67%;
+  }
+  
